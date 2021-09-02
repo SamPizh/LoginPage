@@ -1,0 +1,50 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+#container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+.img-sec{
+    background: url(../img/pexels-andres-ayrton-6578392\ 1.png);
+    width: 40%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.form-sec {
+    width: 60%;
+    height: 100vh;
+    margin: 20px 40px;
+}
+.logo {
+    display: flex;
+    justify-content: flex-end;
+}
+h1 {
+    color: #086DB8;
+    font-size: 30px;
+    Font family: Playfair Display
+    Font-style: Bold;
+    Line-height: 40px;
+    Line-height: 100%;
+    Vertical-align: Top;
+    padding-bottom: 40px;
+}
+.form--row  {
+    display: flex;
+    justify-content: space-between;
+}
+.input-box {
+    width: 48%;
+    
+}
+.input-box input{
+    width: 100%;
+    height: 45px;
+}
+ 
