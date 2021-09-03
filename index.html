@@ -13,7 +13,13 @@
 <body>
 <div id="container">
   <div class="img-sec">
-
+    <div class="img_K">
+      <h1>KodeCamp</h1>
+    </div>
+    <div class="img_J">
+      <h1>JOIN OUR NEXT COHORT</h1><br>
+     <p>An internship that changes newbies to probies</p>
+    </div>
   </div>
   <div  class="form-sec">
     <div class="logo">
@@ -38,12 +44,12 @@
       </div>
       <div class="input-box">
         <label for=" ">Gender</label><br>
-        <input type="radio" name="sex" id="male" />
+        <input  id="rad" type="radio" name="sex" id="male" />
         <label for="male">Male</label>
-     <input type="radio" name="sex" id="female" />
-         <label for="female">Female</label>
-     <input type="radio" name="sex" id="others" />
-         <label for="others"> Others </label>
+        <input  id="rad" type="radio" name="sex" id="female" />
+        <label for="female">Female</label>
+        <input id="rad" type="radio" name="sex" id="others" />
+        <label for="others"> Others </label>
       </div>
     </div>
     <div class="form--row">
@@ -82,70 +88,16 @@
     </div>
 
     <div class="form--row">
-      <div class="input-box">
-        <textarea name="message" rows="10" cols="30"></textarea>
+      <div class="textarea-section"> 
+        <label for=" ">Tell us about you</label>
+        <textarea name="message" id="" maxlength="150" rows="5"></textarea>
       </div>
+    </div>
+
+    <div class="button-sec">
+      <button>Create Account</button>
+    </div>
   </div>
+
 </div>
-
-
-
-
-<!-- <img src="linkedin.png">
-   <form>
-     <div class="Section">
-    <div class="top">
-    First Name <br>
-    <input type="text" placeholder="Input a username">
-    </div>
-    <div>Email <br>
-    <input type="text" placeholder="Input a username">
-    </div>
-    <div>Password <br>
-    <input type="password" placeholder="Input a username">
-    </div>
-    <div>Confirm Password <br>
-    <input type="password" placeholder="Input a username">
-    </div>
-  </div>
-    <p>Educational Level <br>
-    <input list="Ed_Level" name="Education">
-    <datalist id="Ed_Level">
-      <option value="SSCE">
-      <option value="Undergraduate">
-      <option value="B.Sc">
-      <option value="Masters">
-      <option value="Ph.d">
-    </datalist>
-    </p>
-
-    <p>Experience Level <br>
-    <input list="Ex_Level" name="Experience">
-    <datalist id="Ex_Level">
-      <option value="Novice">
-      <option value="Intermediate">
-      <option value="B.Sc">
-      <option value="Masters">
-      <option value="Ph.d">
-    </datalist>
-  </p>
-    
-    <p>Last Name <br>
-    <input type="text">
-    </p>
-    <p> Gender <br>
-  <input type="radio" name="sex" id="male" />
-     <label for="male">Male</label>
-  <input type="radio" name="sex" id="female" />
-      <label for="female">Female</label>
-  <input type="radio" name="sex" id="others" />
-      <label for="others"> Others </label>
-    </p>
-  </div>
-    
-<p> Tell us about yourself </p>
-    <textarea name="message" rows="10" cols="30"></textarea>
-    
-<button> Create Account</button>
-  </form> -->
 </body>
