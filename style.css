@@ -116,8 +116,8 @@ h1 {
 
 #header h2 {
     display: block;
-    color: black;
     text-align: center;
+    color: black;
 }
 .top-sec {
     display: flex;
@@ -133,14 +133,10 @@ h1 {
     background-repeat: no-repeat;
     background-size: 450px;
 }
-#lefty {
+.lefty {
     width: 55%;
-} 
-#lefty p {
-    font-size: 15px;
-    line-height: 20px;
 }
-#lefty h1 {
+.lefty h1 {
     font-style: normal;
     font-weight: lighter;
     text-align: center;
@@ -149,18 +145,12 @@ h1 {
     
 
 }
-#lefty h1::after {
-    display: inline-flex ;
-   content: '';
-  width: 30%;
-  height: 1px;
-  background: black;
-  position: absolute;
-  text-align: center;
-    
+
+.lefty p {
+    font-size: 15px;
+    line-height: 20px;
 }
-#Contact h1 {
-   color: black;
+
 
 
 .down-sec {
@@ -186,6 +176,9 @@ h1 {
 }
 .input-yo textarea {
     width: 100%;
+}
+#Contact {
+    color: black;
 }
 .button-sect {
     width: 100%;
