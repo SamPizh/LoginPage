@@ -116,6 +116,7 @@ h1 {
 
 #header h2 {
     display: block;
+    color: black;
     text-align: center;
 }
 .top-sec {
@@ -141,6 +142,7 @@ h1 {
     text-align: center;
     position: relative;
     margin-bottom: 60px;
+   color: black;
     
 
 }
