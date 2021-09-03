@@ -14,8 +14,29 @@
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 40px 20px;
     
 }
+.img_K h1 {
+    color: white;
+    font-size: 30px;
+}
+.img_J {
+    margin-top: 80%;
+}
+.img_J h1 {
+    color:white;
+    line-height: 0px;
+    font-size: 20px;
+
+}
+.img_J p {
+    line-height: 1px;
+    font-size: 20px;
+    font-style: bold;
+    color: white;
+}
+
 .form-sec {
     width: 60%;
     height: 100vh;
@@ -29,15 +50,14 @@ h1 {
     color: #086DB8;
     font-size: 30px;
     Font family: Playfair Display
-    Font-style: Bold;
-    Line-height: 40px;
-    Line-height: 100%;
+    Font-style: Bold;    Line-height: 100%;
     Vertical-align: Top;
     padding-bottom: 40px;
 }
 .form--row  {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;;
 }
 .input-box {
     width: 48%;
@@ -45,6 +65,31 @@ h1 {
 }
 .input-box input{
     width: 100%;
-    height: 45px;
+    height: 40px;
+    padding: 0 10px;
 }
- 
+#rad {
+    height: 10px;
+    width: 20px;
+}
+.textarea-section {
+    width: 100%;
+}
+.form--row .textarea-section textarea {
+    width: 100%;
+}
+.button-sec {
+    display: flex;
+    justify-content: flex-end;
+}
+.button-sec button {
+    height: 30px;
+    Font-style: Bold;
+    Font-size: 18px;
+    padding: 8px 40px;
+    color: white;
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 10px 0 10px 0;
+    
+}
