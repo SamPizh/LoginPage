@@ -135,22 +135,30 @@ h1 {
 }
 #lefty {
     width: 55%;
+} 
+#lefty p {
+    font-size: 15px;
+    line-height: 20px;
 }
 #lefty h1 {
     font-style: normal;
     font-weight: lighter;
     text-align: center;
+    position: relative;
     margin-bottom: 60px;
-    color: black;
     
 
 }
+#lefty h1::after {
+    display: inline-flex ;
+   content: '';
+  width: 30%;
+  height: 1px;
+  background: black;
+  position: absolute;
+  text-align: center;
     
-#lefty p {
-    font-size: 15px;
-    line-height: 20px;
 }
-
 #Contact h1 {
    color: black;
 
