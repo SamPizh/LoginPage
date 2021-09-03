@@ -106,7 +106,7 @@ h1 {
     padding: 10px;
 }
 
-.header {
+#header {
     width: 100%;
     padding: 40px 0;
     font-size: 20px;
@@ -114,7 +114,7 @@ h1 {
     
 }
 
-.header h2 {
+#header h2 {
     display: block;
     text-align: center;
 }
@@ -132,10 +132,10 @@ h1 {
     background-repeat: no-repeat;
     background-size: 450px;
 }
-.lefty {
+#lefty {
     width: 55%;
 }
-.lefty h1 {
+#lefty h1 {
     font-style: normal;
     font-weight: lighter;
     text-align: center;
@@ -144,7 +144,7 @@ h1 {
     
 
 }
-.lefty h1::after{
+#lefty h1::after{
     display: inline-flex ;
    content: '';
   width: 30%;
@@ -154,7 +154,7 @@ h1 {
   text-align: center;
     
 }
-.lefty p {
+#lefty p {
     font-size: 15px;
     line-height: 21px;
 }
