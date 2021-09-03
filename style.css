@@ -146,21 +146,14 @@ h1 {
     
 
 }
-#lefty h1::after{
-    display: inline-flex ;
-   content: '';
-  width: 30%;
-  height: 1px;
-  background: black;
-  position: absolute;
-  text-align: center;
     
 }
 #lefty p {
     font-size: 15px;
-    line-height: 21px;
+    line-height: 20px;
 }
-
+#Contact h1 {
+   color: black;
 
 
 .down-sec {
